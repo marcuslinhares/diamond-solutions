@@ -16,13 +16,13 @@ header {
   justify-content: center;
 }
 
-.logo img{
+.logo img{ 
+  width: 50vw;
   height: auto;
-  flex-grow: 0.3;
 }
 
 .menu{
-  background-color: rgb(72, 177, 209);
+  background-color: rgba(63,156,201,255);
 }
 
 .menu ul{
@@ -83,6 +83,7 @@ section h{
 }
 
 .titulo_n_serv{
+  margin-bottom: 5vh;
   text-align: center;
 }
 
@@ -99,9 +100,9 @@ section h{
   display: flex;
   flex-direction: column;
   border-radius: 45px;
-  background-color: rgb(72, 177, 209);
+  background-color: rgba(63,156,201,255);
   padding: 1%;
-  row-gap: 8rem;
+  row-gap: 1rem;
   flex-grow: 1;
   align-items: center;
   justify-content: center;
@@ -119,20 +120,20 @@ section h{
 
 footer{
   flex-grow: 1;
-  align-items: center;
+  align-items: start;
   justify-content: space-evenly;
-  column-gap: 20%;
-  background-color: rgb(72, 177, 209);
+  column-gap: 10%;
+  background-color: rgba(63,156,201,255);
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   padding: 1rem 1rem;
-  row-gap: 20%;
 }
 
-.logo img{
+.logo_footer img{
+  margin-top: 5vh;
+  width: 30vw;
   height: auto;
-  width: 150px;
 }
 
 .mapa{
@@ -152,11 +153,19 @@ footer{
 }
 
 .redes{
+  color: #ffffff;
   display: flex;
   align-items: start;
   height: max-content;
+  flex-direction: column;
 }
 
-.redes{
-  color: #ffffff;
+.icons{
+  display: flex;
+  justify-content: space-evenly;
+  column-gap: 1.5rem;
+}
+
+.icons img{
+  width: 3vw;
 }
